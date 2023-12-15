@@ -49,7 +49,6 @@ const Invoice = lazy( () => import( '../../views/sales/pos/details' ) );
 const PartnerList = lazy( () => import( '../../views/configuration/partner/list' ) );
 const PartnerForm = lazy( () => import( '../../views/configuration/partner/form' ) );
 const EditPartnerForm = lazy( () => import( '../../views/configuration/partner/form/EditForm' ) );
-const PartnerEditForm = lazy( () => import( '../../views/configuration/partner/form/partnerEditForm' ) );
 const PartnerDetails = lazy( () => import( '../../views/configuration/partner/details' ) );
 
 // customer
@@ -220,10 +219,7 @@ const allRoutes = [
     element: <PartnerForm />,
     path: '/add-new-partner'
   },
-  {
-    element: <PartnerEditForm />,
-    path: '/edit-partner'
-  },
+
   {
     element: <EditPartnerForm />,
     path: '/edit-partner-form'

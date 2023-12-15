@@ -73,8 +73,8 @@ const LoginBasic = () => {
     if ( Object.values( formData ).every( field => field.length > 0 ) ) {
       axios
         .post( `${generalStoreApi.userLogin.root}`, {
-          userNameOrEmail: "borhan@test.com",
-          password: "123456",
+          userNameOrEmail: formData.userNameOrEmail,
+          password: formData.password,
         } )
         .then( res => {
           // console.log( res.data );
