@@ -1,0 +1,23 @@
+export const initialSupplierData = {
+    contactType: { label: 'Supplier', value: 'Supplier' },
+    name: "",
+    mobileNo: "",
+    email: "",
+    zoneId: 0,
+    businessType: "",
+    note: "",
+    addressLine: "",
+    city: "",
+    postalCode: "",
+    division: "",
+    countryId: null,
+    paymentTerm: "",
+    bin: "",
+    commission: 0,
+    contactPersonOneName: "",
+    contactPersonOneMobileNo: "",
+    contactPersonTwoName: "",
+    contactPersonTwoMobileNo: "",
+    contactPersonOne: {},
+    contactPersonTwo: {}
+};

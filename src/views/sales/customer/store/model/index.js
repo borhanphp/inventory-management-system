@@ -1,0 +1,23 @@
+export const initialCustomerData = {
+    contactType: { label: 'Customer', value: 'Customer' },
+    name: "",
+    mobileNo: "",
+    email: "",
+    zoneId: 0,
+    businessType: "",
+    note: "",
+    addressLine: "",
+    city: "",
+    postalCode: "",
+    division: "",
+    countryId: 0,
+    paymentTerm: "",
+    bin: "",
+    commission: 0,
+    contactPersonOneName: "",
+    contactPersonOneMobileNo: "",
+    contactPersonTwoName: "",
+    contactPersonTwoMobileNo: "",
+    contactPersonOne: {},
+    contactPersonTwo: {}
+};
